@@ -1,0 +1,40 @@
+.search-cnt {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  flex-basis: 90%;
+}
+
+.search-input {
+  font-size: 1.25rem;
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-bottom: 1px solid transparent;
+}
+
+.search-input:focus {
+  transition: border-width 0.6s linear;
+  border-bottom: 1px solid #cecece;;
+}
+
+.favorites-btn {
+  align-self: center;
+
+  height: 3em;
+
+  border-radius: 17px;
+  border: solid 1px #cecece;
+  color: #979797;
+  background-color: transparent;
+  outline: 0;
+}
+
+.favorites-btn:hover {
+  cursor: pointer;
+  border: solid 1px #999898;
+}

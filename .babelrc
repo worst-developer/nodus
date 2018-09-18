@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    ["@babel/preset-env", {
+        "targets": {
+          "chrome": "58",
+          "safari": "10"
+        }
+      }
+    ]],
+  "plugins": [
+    "@babel/plugin-transform-async-to-generator",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
+  ]
+}
